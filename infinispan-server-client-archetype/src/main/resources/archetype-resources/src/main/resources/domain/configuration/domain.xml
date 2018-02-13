@@ -1,8 +1,6 @@
-
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
-#set(
-$symbol_escape = '\' )
+#set($symbol_escape = '\' )
 <?xml version="1.0" ?>
 
 <domain xmlns="urn:jboss:domain:4.0">
@@ -290,7 +288,8 @@ $symbol_escape = '\' )
                     <stack name="tcp-gossip">
                         <transport type="TCP" socket-binding="jgroups-tcp" />
                         <protocol type="TCPGOSSIP">
-                            <property name="initial_hosts">${symbol_dollar}{jgroups.gossip.initial_hosts:}</property>
+                            <property name="initial_hosts">${symbol_dollar}{jgroups.gossip.initial_hosts:}
+                            </property>
                         </protocol>
                         <protocol type="MERGE3" />
                         <protocol type="FD_SOCK"

@@ -1,8 +1,6 @@
-
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
-#set(
-$symbol_escape = '\' )
+#set( $symbol_escape = '\' )
 <?xml version="1.0" ?>
 
 <host xmlns="urn:jboss:domain:4.0">
