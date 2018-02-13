@@ -8,5 +8,6 @@
     <modules>
         <module>activemq-artemis-archetype</module>
         <module>infinispan-server-client-archetype</module>
+        <module>infinispan-embedded-archetype</module>
     </modules>
 </project>

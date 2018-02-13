@@ -1,0 +1,18 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+<infinispan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="urn:infinispan:config:8.4 http://www.infinispan.org/schemas/infinispan-config-8.4.xsd"
+    xmlns="urn:infinispan:config:8.4">
+    <jgroups>
+        <stack-file name="external-file" path="jgroups-tcp.xml" />
+    </jgroups>
+    <cache-container>
+        <transport stack="external-file" />
+        <local-cache name="localCache" />
+        <distributed-cache name="distCache" owners="2"
+            mode="SYNC" />
+        <replicated-cache name="replCache" mode="SYNC" />
+    </cache-container>
+</infinispan>
+
