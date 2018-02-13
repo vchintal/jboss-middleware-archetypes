@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archetype-descriptor
 	xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0 http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd"
-	name="simple-amq7-jms-client"
+	name="simple-hotrod-client-app"
 	xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<fileSets>
@@ -29,6 +29,12 @@
 			<includes>
 				<include>.classpath</include>
 				<include>.project</include>
+			</includes>
+		</fileSet>
+		<fileSet encoding="UTF-8">
+			<directory></directory>
+			<includes>
+				<include>README.md</include>
 			</includes>
 		</fileSet>
 	</fileSets>

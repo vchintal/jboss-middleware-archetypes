@@ -4,9 +4,9 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.everythingjboss.mw</groupId>
-	<artifactId>activemq-artemis-archetype</artifactId>
-	<packaging>maven-archetype</packaging>
+	<artifactId>infinispan-server-client-archetype</artifactId>
 	<version>1.0-SNAPSHOT</version>
+	<packaging>maven-archetype</packaging>
 
 	<name>${project.artifactId}</name>
 
@@ -28,6 +28,4 @@
 			</plugins>
 		</pluginManagement>
 	</build>
-
-	<url>http://everythingjboss.org</url>
 </project>

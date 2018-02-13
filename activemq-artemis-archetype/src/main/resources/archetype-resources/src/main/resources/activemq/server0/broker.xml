@@ -1,6 +1,8 @@
+
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
-#set( $symbol_escape = '\' )
+#set(
+$symbol_escape = '\' )
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Licensed to the Apache Software Foundation (ASF) under one or more contributor 
 	license agreements. See the NOTICE file distributed with this work for additional 
