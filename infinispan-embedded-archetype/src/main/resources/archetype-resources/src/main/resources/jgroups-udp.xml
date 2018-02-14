@@ -6,7 +6,9 @@
     Bela Ban -->
 <config xmlns="urn:org:jgroups" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="urn:org:jgroups http://www.jgroups.org/schema/jgroups.xsd">
-    <UDP mcast_port="${symbol_dollar}{jgroups.udp.mcast_port:45588}"
+    <UDP
+        bind_addr="${symbol_dollar}{jgroups.bind_addr:127.0.0.1}" 
+        mcast_port="${symbol_dollar}{jgroups.udp.mcast_port:45588}"
         ip_ttl="4" tos="8" ucast_recv_buf_size="5M" ucast_send_buf_size="5M"
         mcast_recv_buf_size="5M" mcast_send_buf_size="5M"
         max_bundle_size="64K" enable_diagnostics="true"
